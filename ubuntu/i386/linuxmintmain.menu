@@ -1,0 +1,8 @@
+LABEL LINUXMINTX86
+MENU LABEL ^Linux Mint Ubuntu Live - i386
+KERNEL er/plugins/linuxmint/ubuntu/i386/vmlinuz
+INITRD er/plugins/linuxmint/ubuntu/i386/initrd.lz
+APPEND vga=normal boot=casper netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/linuxmint/ubuntu/i386/ ramdisk_size=200000 nolock
+TEXT HELP
+                 Linux Mint Live - i386.
+ENDTEXT

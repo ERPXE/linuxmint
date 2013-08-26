@@ -1,0 +1,8 @@
+LABEL LINUXMINTDX86
+MENU LABEL ^Linux Mint Debian Live - i386
+KERNEL er/plugins/linuxmint/debian/i386/vmlinuz
+INITRD er/plugins/linuxmint/debian/i386/initrd.lz
+APPEND boot=live live-config netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/linuxmint/debian/i386/ ramdisk_size=200000 nolock
+TEXT HELP
+                 Linux Mint Live - i386.
+ENDTEXT
