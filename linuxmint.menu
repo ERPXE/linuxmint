@@ -1,9 +1,6 @@
 MENU BEGIN LINUXMINTLIVE
+MENU TITLE Linux Mint 12
 MENU LABEL ^Linux Mint 12
-# ------====> Include Menu Settings <====------
-MENU INCLUDE er/menuinc/header.module
-
-# ------====> Set Specific Page Settings <====------
 MENU BACKGROUND er/plugins/linuxmint/linuxmint.png
 
 MENU INCLUDE er/plugins/linuxmint/ubuntu/i386/linuxmintmain.menu
